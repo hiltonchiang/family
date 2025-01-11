@@ -181,6 +181,58 @@ G8M(劉文筠):::blue --- G97
 
 G8F --> G98(蔣德純):::salmon
 G8M(劉文筠):::blue --- G98
+```
+---
+
+```mermaid
+flowchart TB
+
+%% Colors %%
+
+classDef blue fill:#66deff,stroke:#000,color:#000
+classDef green fill:#6ad98b,stroke:#000,color:#000
+classDef salmon	fill:#FA8072,stroke;#000,color:#000
+classDef khaki	fill:#F0E68C,stroke:#000,color:#000
+
+%% GENERATION 9 %%
+
+G9F(張亞明):::green --> G101(張庭怡):::blue
+G9M(蔣玉芳):::green --- G101
+G9F(張亞明):::khaki --> G102(張廼翔):::blue
+G9M(蔣玉芳):::green --- G102
+
+G101 --> G111(姜勻婕):::salmon
+G101F(姜庭寧):::khaki --- G111
+
+```
+---
+```mermaid
+flowchart TB
+
+%% Colors %%
+
+classDef blue fill:#66deff,stroke:#000,color:#000
+classDef green fill:#6ad98b,stroke:#000,color:#000
+classDef salmon	fill:#FA8072,stroke:#000,color:#000
+classDef greenyellow	fill:#ADFF2F,stroke:#000,color:#000
 
 
+%% GENERATION 9 %%
+
+G9F(蔣玉華):::green --> G101(蔣欣潔):::blue
+G9M(楊鴻娟):::greenyellow --- G101
+G9F --> G102(蔣昌翰):::blue
+G9M  --- G102
+
+G101 --> G111(謝詠真):::salmon
+G101F(謝明同):::greenyellow --- G111
+
+G101 --> G112(謝妍廷):::salmon
+G101F --- G112
+
+G102 --> G113(蔣允傑):::salmon
+G102M(林思吟):::greenyellow --- G113
+
+G102 --> G114(蔣翊弘):::salmon
+G102M --- G114
 ```
