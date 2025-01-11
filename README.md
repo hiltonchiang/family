@@ -141,3 +141,46 @@
     - 婿：黃俊峰
         - 女：黃茵
 
+---
+
+```mermaid
+flowchart TB
+
+%% Colors %%
+
+classDef blue fill:#66deff,stroke:#000,color:#000
+classDef green fill:#6ad98b,stroke:#000,color:#000
+classDef salmon	fill:#FA8072,stroke;#000,color:#000
+
+
+%% GENERATION 7 %%
+G7F(蔣超元):::green --> G8F(蔣文彬):::blue
+G7M(蔣胡氏):::green --- G8F
+
+%% GENERATION 8 %%	
+G8F --> G91(蔣大毛):::salmon
+G8M(劉文筠):::blue --- G91
+
+G8F --> G92(蔣玉芳):::salmon
+G8M(劉文筠):::blue --- G92
+
+G8F --> G93(蔣玉華):::salmon
+G8M(劉文筠):::blue --- G93
+
+G8F --> G94(蔣玉萍):::salmon
+G8M(劉文筠):::blue --- G94
+
+G8F --> G95(蔣玉遐):::salmon
+G8M(劉文筠):::blue --- G95
+
+G8F --> G96(蔣玉蘭):::salmon
+G8M(劉文筠):::blue --- G96
+
+G8F --> G97(蔣玉明):::salmon
+G8M(劉文筠):::blue --- G97
+
+G8F --> G98(蔣德純):::salmon
+G8M(劉文筠):::blue --- G98
+
+
+```
